@@ -83,6 +83,6 @@ Returns null if no path exists (theoretically impossible on an 8×8 board)
 <pre>
   knightMoves([0,0], [3,3]);
 </pre>
-Output:
+Output: <br>
 <img width="272" height="203" alt="image" src="https://github.com/user-attachments/assets/372cf9b7-b16b-42b0-8ac9-8f133e81c5b3" />
 
