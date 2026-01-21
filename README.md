@@ -97,10 +97,15 @@ Output: <br>
 
 **🔑 Key Concepts**
 
-BFS (Breadth-First Search): Explores positions level by level to find the shortest path.
+**BFS (Breadth-First Search)**: Explores positions level by level to find the shortest path.
 
-Visited Set: Prevents revisiting squares and infinite loops.
+**Visited Set:** Prevents revisiting squares and infinite loops.
 
-Path Tracking: Records all squares to reconstruct the knight’s journey.
+**Path Tracking:** Records all squares to reconstruct the knight’s journey.
 
-Grid as Graph: Each square is a node, and knight moves are edges.
+**Grid as Graph:** Each square is a node, and knight moves are edges.
+
+The Odin project helped me learn graph algorithms, but the video that showed me examples and gave me additional information is the following:
+
+Graph Algorithms for Technical Interviews - Full Course:
+https://www.youtube.com/watch?v=tWVWeAqZ0WU&t=143s
