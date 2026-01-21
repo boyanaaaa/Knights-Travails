@@ -68,3 +68,21 @@ If the current square matches the target:
 if (x === end[0] && y === end[1])
 </pre>
 The program prints the path and stops, because BFS guarantees this is the shortest path.
+
+
+**7. 🔚 Return Value**
+
+Returns the full path as an array of squares, e.g.:
+<pre>
+[[0,0],[1,2],[3,3]]
+</pre>
+Returns null if no path exists (theoretically impossible on an 8×8 board)
+
+
+**💡 Example Usage**
+<pre>
+  knightMoves([0,0], [3,3]);
+</pre>
+Output:
+<img width="272" height="203" alt="image" src="https://github.com/user-attachments/assets/372cf9b7-b16b-42b0-8ac9-8f133e81c5b3" />
+
