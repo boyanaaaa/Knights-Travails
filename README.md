@@ -86,3 +86,21 @@ Returns null if no path exists (theoretically impossible on an 8×8 board)
 Output: <br>
 <img width="272" height="203" alt="image" src="https://github.com/user-attachments/assets/372cf9b7-b16b-42b0-8ac9-8f133e81c5b3" />
 
+
+<pre>
+  knightMoves([[0, 0], [7, 7]);
+</pre>
+Output: <br>
+<img width="267" height="196" alt="image" src="https://github.com/user-attachments/assets/8bc0a3af-948c-461b-9471-c3e1045f4c90" />
+
+
+
+**🔑 Key Concepts**
+
+BFS (Breadth-First Search): Explores positions level by level to find the shortest path.
+
+Visited Set: Prevents revisiting squares and infinite loops.
+
+Path Tracking: Records all squares to reconstruct the knight’s journey.
+
+Grid as Graph: Each square is a node, and knight moves are edges.
